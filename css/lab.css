@@ -1,11 +1,14 @@
 h1 {
-  color: #181D31;
+  color: white;
   font-size: 150%;
 }
 
 p{
-  color: #181D31;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  color: #white;
   font-family: sans-serif;
+  font-weight: bold;
   text-indent: 20px;
   margin-left: 10px;
 }
@@ -16,6 +19,7 @@ p{
 }
 
 body{
+  background-image: url("ocean.jpg");
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
@@ -28,11 +32,15 @@ img{
 
 
 #banner{
+
   padding: 60px;
-  text-align: center;
-  background: #1abc9c;
+  text-align: left;
+  background: #02222b;
   color: white;
-  font-size: 60px;
+  background-image: url("otter.jpg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right;
+  font-size: 50px;
   text-indent: 100px;
   text-shadow: 2px 2px #000000;
   letter-spacing: 2px
@@ -40,7 +48,7 @@ img{
 
 #buttons{
   overflow: hidden;
-  background-color: #333;
+  background-color: #10204a;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
@@ -65,12 +73,16 @@ img{
 }
 
 
-#intro{
+#info{
+
   width: 1500px;
+  color: white;
   min-height: 300px;
   padding: 10px;
   margin: 10px;
-  font-size: 20px;
+  font-size: 30px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
 
 }
 
